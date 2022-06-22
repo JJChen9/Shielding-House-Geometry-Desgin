@@ -1,0 +1,16 @@
+/run/initialize
+
+
+
+
+
+
+
+
+
+
+/analysis/setFileName electron_12P5_4Plus2thick_Pb_SSC_HE
+/control/execute Poly176_electron1.mac
+#/run/beamOn 23807925 #1spill
+#/run/beamOn 47615850 #2spills
+/run/beamOn 190463400 #8spills
